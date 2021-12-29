@@ -280,7 +280,7 @@ while True :
 	if delta < 0: break
 	if delta <= 10 and not sound:
 		sound = True
-		playsound.playsound('mp3/countdown-10.mp3', False)
+		playsound.playsound('countdown-10.mp3', False)
 	
 	if delta > 60*60*24 : #more than 1 day
 		prev = 'clock'
