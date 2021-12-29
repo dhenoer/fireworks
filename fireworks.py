@@ -83,7 +83,7 @@ class Firework:
 	def shoot(self):
 		# shoot fireworks
 
-		playsound.playsound('mp3/woosh.mp3', False)
+		playsound.playsound('woosh.mp3', False)
 		# target
 		dx = random.randint(-MAXWIDTH, MAXWIDTH) *XRATIO
 		dy = random.randint(-MAXWIDTH//3, MAXWIDTH//2) *YRATIO
@@ -131,7 +131,7 @@ class Firework:
 			'fireworks-4.mp3',
 			'bomb.mp3',
 		], 1)[0]
-		playsound.playsound(f'mp3/{sound}', False)
+		playsound.playsound(f'{sound}', False)
 
 		th = []
 		idx = random.randint(0,2)
@@ -236,8 +236,8 @@ print('untuk efek suara berasal dari http://soundbible.com')
 print(f'{fg.yellow}This app used for countdown to the new year event')
 print('followed by shooting of fireworks. All mp3 files')
 print(f'for sound effect is credited to http://soundbible.com{fx.reset}')
-print('\nFile *mp3 diletakkan pada folder mp3/')
-print(f'{fg.yellow}Put *mp3 files to folder named mp3/{fx.reset}')
+print('\nFile *mp3 diletakkan pada folder yang sama')
+print(f'{fg.yellow}Put *mp3 files to folder along application{fx.reset}')
 
 hitEnter()
 
