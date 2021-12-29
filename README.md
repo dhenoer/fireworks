@@ -17,4 +17,4 @@ This program create using Python with implementing several modules:
 
 ## Video
 
-![Video in Action](http://github.com/dhenoer/fireworks/countdown-and-fireworks-in-action.mp4)
+![Video in Action](https://www.youtube.com/watch?v=YQS2qns1ELg)
