@@ -17,4 +17,4 @@ This program create using Python with implementing several modules:
 
 ## Video
 
-![Video in Action (https://img.youtube.com/vi/YQS2qns1ELg/0.jpg)](https://www.youtube.com/watch?v=YQS2qns1ELg)
+[![Video in Action] (https://img.youtube.com/vi/YQS2qns1ELg/0.jpg)](https://www.youtube.com/watch?v=YQS2qns1ELg)
